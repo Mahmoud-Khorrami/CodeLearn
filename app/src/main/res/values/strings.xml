@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">CodeLearn</string>
+    <string name="please_wait">Please Wait</string>
+    <string name="recovery_pass">فراموشی رمز عبور</string>
+    <string name="register">ثبت نام</string>
+    <string name="enter">ورود</string>
+    <string name="phone_number">شماره همراه</string>
+    <string name="welcome1">خوش آمدید</string>
+    <string name="enter_phone_number">شماره همراه را وارد کنید</string>
+    <string name="enter_correct_phone_number">شماره همراه را به صورت صحیح وارد کنید. (حداقل 11 کاراکتر)</string>
+    <string name="approve">تایید</string>
+    <string name="validation_code">کد فعالسازی</string>
+    <string name="remaining_time">زمان باقیمانده</string>
+    <string name="resend">ارسال مجدد</string>
+    <string name="incorrect_v_code">کد فعالسازی اشتباه است.</string>
+    <string name="phone_number_not_registered">این شماره همراه ثبت نشده است.</string>
+    <string name="v_code">کد فعالسازی: %1$s</string>
+    <string name="success_register">ثبت نام با موفقیت انجام شد.</string>
+    <string name="new_invoice">ثبت فاکتور جدید</string>
+    <string name="sales_list">لیست فروش ها</string>
+    <string name="product_name">نام کالا</string>
+    <string name="number">تعداد</string>
+    <string name="unit_price">قیمت واحد</string>
+    <string name="total_price">قیمت کل</string>
+    <string name="date">تاریخ فاکتور</string>
+    <string name="g_date">%1$s %2$s %3$s</string>
+    <string name="enter_product_name">نام کالا را وارد کنید.</string>
+    <string name="enter_number">تعداد را وارد کنید.</string>
+    <string name="enter_unit_price">قیمت واحد را وارد کنید.</string>
+    <string name="enter_date">تاریخ را وارد کنید.</string>
+    <string name="amount1">%1$s ریال</string>
+    <string name="cancel">لغو</string>
+    <string name="factor_number">فاکتور شماره %1$s</string>
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navigation"
+    app:startDestination="@id/f0Login">
+
+    <fragment
+        android:id="@+id/f0Login"
+        android:name="com.mahapp1397.codelearn1.fragment.F0Login"
+        android:label="F0Login" >
+        <action
+            android:id="@+id/action_f0Login_to_f1Register"
+            app:destination="@id/f1Register" />
+        <action
+            android:id="@+id/action_f0Login_to_f2Sale"
+            app:destination="@id/f2Sale"
+            app:popUpTo="@id/f0Login"
+            app:popUpToInclusive="true"/>
+    </fragment>
+    <fragment
+        android:id="@+id/f1Register"
+        android:name="com.mahapp1397.codelearn1.fragment.F1Register"
+        android:label="F1Register" />
+    <fragment
+        android:id="@+id/f2Sale"
+        android:name="com.mahapp1397.codelearn1.fragment.F2Sale"
+        android:label="F2Sale" >
+        <action
+            android:id="@+id/action_f2Sale_to_f3NewSale"
+            app:destination="@id/f3NewSale" />
+    </fragment>
+    <fragment
+        android:id="@+id/f3NewSale"
+        android:name="com.mahapp1397.codelearn1.fragment.F3NewSale"
+        android:label="F3NewSale" />
+</navigation>
